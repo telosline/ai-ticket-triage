@@ -4,6 +4,8 @@ An n8n workflow that classifies support tickets by category and priority, drafts
 
 The product (TradeSim Desk) and all tickets are fictional. No real customer data is used.
 
+![Workflow in n8n](workflow.png)
+
 ## How it works
 
 ```mermaid
