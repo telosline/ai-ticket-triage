@@ -1,0 +1,31 @@
+id,expected_category,category,expected_priority,priority,expected_escalate,escalated,reasons
+T01,billing,billing,high,high,True,True,payment_action
+T02,billing,billing,normal,normal,False,False,
+T03,billing,billing,normal,high,True,True,"payment_action, sensitive_keyword"
+T04,billing,billing,normal,normal,False,False,
+T05,billing,billing,high,high,True,True,"payment_action, security_or_legal, sensitive_keyword"
+T06,bug,bug,high,high,False,False,
+T07,bug,bug,normal,low,False,False,
+T08,bug,bug,critical,critical,True,True,critical_priority
+T09,bug,bug,normal,normal,False,False,
+T10,bug,bug,low,low,False,False,
+T11,license_activation,license_activation,high,high,False,False,
+T12,license_activation,license_activation,high,high,False,False,
+T13,license_activation,license_activation,normal,low,False,False,
+T14,license_activation,license_activation,normal,normal,False,False,
+T15,how_to,how_to,low,low,False,False,
+T16,how_to,how_to,low,normal,False,False,
+T17,how_to,how_to,normal,normal,False,False,
+T18,how_to,how_to,low,low,False,False,
+T19,how_to,how_to,normal,low,False,False,
+T20,feature_request,feature_request,low,low,False,False,
+T21,feature_request,feature_request,low,low,False,False,
+T22,feature_request,feature_request,low,low,False,False,
+T23,other,other,critical,critical,True,True,"critical_priority, security_or_legal, sensitive_keyword"
+T24,other,other,normal,normal,True,True,"security_or_legal, sensitive_keyword"
+T25,other,other,low,low,False,False,
+T26,other,other,normal,normal,True,True,unclear
+T27,bug,bug,high,high,True,True,"payment_action, multiple_issues"
+T28,billing,billing,normal,low,True,True,"payment_action, manipulation_attempt, sensitive_keyword"
+T29,how_to,how_to,normal,low,True,True,answer_not_in_kb
+T30,license_activation,license_activation,high,high,False,False,
